@@ -1,0 +1,42 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "sensor-001",
+      "geometry": { "type": "Point", "coordinates": [139.7671, 35.6812, 10.0] },
+      "properties": { "name": "Tokyo Station Sensor", "category": "sensor", "value": 42.5, "active": true }
+    },
+    {
+      "type": "Feature",
+      "id": "route-001",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [139.7640, 35.6790],
+          [139.7660, 35.6805],
+          [139.7690, 35.6815],
+          [139.7720, 35.6822]
+        ]
+      },
+      "properties": { "name": "Inspection Route A", "category": "route" }
+    },
+    {
+      "type": "Feature",
+      "id": "zone-001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [139.7650, 35.6800],
+            [139.7700, 35.6800],
+            [139.7700, 35.6830],
+            [139.7650, 35.6830],
+            [139.7650, 35.6800]
+          ]
+        ]
+      },
+      "properties": { "name": "Restricted Zone", "category": "zone", "level": 3, "height": 35.0 }
+    }
+  ]
+}

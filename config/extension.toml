@@ -1,0 +1,43 @@
+[package]
+version = "0.1.0"
+title = "GeoJSON Overlay for USD Composer"
+description = "GeoJSON の Point / LineString / Polygon を USD Composer のシーンへ別レイヤーで重畳表示する MVP 拡張。"
+authors = ["SpaceData"]
+repository = ""
+category = "Geospatial"
+keywords = ["geojson", "gis", "overlay", "usd", "composer", "geospatial"]
+readme = "docs/README.md"
+changelog = "docs/CHANGELOG.md"
+
+# Kit 106 / 107 系を想定。
+[dependencies]
+"omni.kit.uiapp" = {}
+"omni.ui" = {}
+"omni.usd" = {}
+"omni.kit.menu.utils" = {}
+# ファイル選択ダイアログ（無い環境ではパス入力にフォールバック）
+"omni.kit.window.filepicker" = { optional = true }
+# pyproj をランタイムに pip 取得するために使用 (任意)
+"omni.kit.pipapi" = { optional = true }
+
+# Python モジュールとして読み込まれるエントリ
+[[python.module]]
+name = "spacedata.geojson_overlay"
+
+# pip 依存 (pyproj)。Kit 起動時に omni.kit.pipapi 経由で解決を試みる。
+# 取得できない環境では coordinate.py が自動で simple 方式へフォールバックする。
+[python.pipapi]
+requirements = ["pyproj>=3.4"]
+use_online_index = true
+# 社内ミラー等を使う場合は extra_args で index を指定:
+# extra_args = ["--index-url", "https://your-mirror/simple"]
+
+[settings]
+# 既定の原点（経度・緯度）。0,0 のときは最初の座標を原点として自動採用。
+exts."spacedata.geojson_overlay".origin_lon = 0.0
+exts."spacedata.geojson_overlay".origin_lat = 0.0
+# 重畳レイヤーのファイル名
+exts."spacedata.geojson_overlay".overlay_layer_name = "GeoJSONOverlay.usda"
+
+[[test]]
+dependencies = ["omni.kit.test"]
