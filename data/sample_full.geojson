@@ -1,0 +1,6909 @@
+{
+ "type": "FeatureCollection",
+ "name": "geojson_overlay_full_demo",
+ "crs": {
+  "type": "name",
+  "properties": {
+   "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+  }
+ },
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7656729,
+     35.681539,
+     12.0
+    ]
+   },
+   "properties": {
+    "name": "Tokyo Station Sensor",
+    "category": "sensor",
+    "temp": 24.5,
+    "active": true,
+    "count": 3
+   },
+   "id": "sensor-001"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7678847,
+     35.6806407,
+     8.0
+    ]
+   },
+   "properties": {
+    "name": "North Gate Camera",
+    "category": "camera",
+    "fps": 30,
+    "active": true
+   },
+   "id": "camera-001"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiPoint",
+    "coordinates": [
+     [
+      139.7665576,
+      35.6802814
+     ],
+     [
+      139.7667788,
+      35.6801915
+     ],
+     [
+      139.767,
+      35.6801017
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Beacon Cluster",
+    "category": "beacon"
+   },
+   "id": "beacon-grp"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      139.7652305,
+      35.680461
+     ],
+     [
+      139.7660047,
+      35.6809102
+     ],
+     [
+      139.7668894,
+      35.6811797
+     ],
+     [
+      139.7677741,
+      35.6813144
+     ],
+     [
+      139.7686589,
+      35.6812246
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Inspection Route A",
+    "category": "route",
+    "length_m": 420
+   },
+   "id": "route-001"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       139.7653411,
+       35.6817186
+      ],
+      [
+       139.7663364,
+       35.6818085
+      ]
+     ],
+     [
+      [
+       139.7674424,
+       35.6818534
+      ],
+      [
+       139.7683271,
+       35.6817186
+      ],
+      [
+       139.7687695,
+       35.681539
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Cable Lines",
+    "category": "cable"
+   },
+   "id": "cable-grp"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       139.7674424,
+       35.6813593
+      ],
+      [
+       139.7686589,
+       35.6813593
+      ],
+      [
+       139.7686589,
+       35.6821678
+      ],
+      [
+       139.7674424,
+       35.6821678
+      ],
+      [
+       139.7674424,
+       35.6813593
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Restricted Zone",
+    "category": "zone",
+    "level": 3,
+    "height": 35.0
+   },
+   "id": "zone-001"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       139.7651199,
+       35.6807305
+      ],
+      [
+       139.7665576,
+       35.6807305
+      ],
+      [
+       139.7665576,
+       35.6818085
+      ],
+      [
+       139.7651199,
+       35.6818085
+      ],
+      [
+       139.7651199,
+       35.6807305
+      ]
+     ],
+     [
+      [
+       139.7655623,
+       35.6810898
+      ],
+      [
+       139.7661153,
+       35.6810898
+      ],
+      [
+       139.7661153,
+       35.6814941
+      ],
+      [
+       139.7655623,
+       35.6814941
+      ],
+      [
+       139.7655623,
+       35.6810898
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Central Park",
+    "category": "park",
+    "area_m2": 9800
+   },
+   "id": "park-001"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       139.7651199,
+       35.679383
+      ],
+      [
+       139.7666682,
+       35.679383
+      ],
+      [
+       139.7666682,
+       35.679922
+      ],
+      [
+       139.7657835,
+       35.679922
+      ],
+      [
+       139.7657835,
+       35.6806407
+      ],
+      [
+       139.7651199,
+       35.6806407
+      ],
+      [
+       139.7651199,
+       35.679383
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "name": "L Block",
+    "category": "zone",
+    "level": 1
+   },
+   "id": "lblock-001"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+     [
+      [
+       [
+        139.7676636,
+        35.6795627
+       ],
+       [
+        139.7683271,
+        35.6795627
+       ],
+       [
+        139.7683271,
+        35.6801017
+       ],
+       [
+        139.7676636,
+        35.6801017
+       ],
+       [
+        139.7676636,
+        35.6795627
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        139.7685483,
+        35.6796525
+       ],
+       [
+        139.7691012,
+        35.6796525
+       ],
+       [
+        139.7691012,
+        35.6801915
+       ],
+       [
+        139.7685483,
+        35.6801915
+       ],
+       [
+        139.7685483,
+        35.6796525
+       ]
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "name": "Office Towers",
+    "category": "building",
+    "height": 60.0,
+    "floors": 15
+   },
+   "id": "bldg-grp"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [
+     {
+      "type": "Point",
+      "coordinates": [
+       139.7689907,
+       35.682078,
+       5.0
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        139.7689907,
+        35.682078
+       ],
+       [
+        139.7693224,
+        35.6823475
+       ]
+      ]
+     }
+    ]
+   },
+   "properties": {
+    "name": "Mixed Marker",
+    "category": "misc"
+   },
+   "id": "geomcol-001"
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 18.0,
+    "node": "N001",
+    "count": 1,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 18.7,
+    "node": "N002",
+    "count": 2,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 19.4,
+    "node": "N003",
+    "count": 3,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 20.1,
+    "node": "N004",
+    "count": 4,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 20.8,
+    "node": "N005",
+    "count": 5,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.5,
+    "node": "N006",
+    "count": 6,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.2,
+    "node": "N007",
+    "count": 7,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.9,
+    "node": "N008",
+    "count": 8,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.6,
+    "node": "N009",
+    "count": 9,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.3,
+    "node": "N010",
+    "count": 10,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.0,
+    "node": "N011",
+    "count": 11,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.7,
+    "node": "N012",
+    "count": 12,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.4,
+    "node": "N013",
+    "count": 13,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.1,
+    "node": "N014",
+    "count": 14,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.8,
+    "node": "N015",
+    "count": 15,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.5,
+    "node": "N016",
+    "count": 16,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.2,
+    "node": "N017",
+    "count": 17,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.9,
+    "node": "N018",
+    "count": 18,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.6,
+    "node": "N019",
+    "count": 19,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.3,
+    "node": "N020",
+    "count": 20,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.0,
+    "node": "N021",
+    "count": 21,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.7,
+    "node": "N022",
+    "count": 22,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.4,
+    "node": "N023",
+    "count": 23,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6825271
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.1,
+    "node": "N024",
+    "count": 24,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 18.3,
+    "node": "N025",
+    "count": 25,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 19.0,
+    "node": "N026",
+    "count": 26,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 19.7,
+    "node": "N027",
+    "count": 27,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 20.4,
+    "node": "N028",
+    "count": 28,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.1,
+    "node": "N029",
+    "count": 29,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 21.8,
+    "node": "N030",
+    "count": 30,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.5,
+    "node": "N031",
+    "count": 31,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.2,
+    "node": "N032",
+    "count": 32,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.9,
+    "node": "N033",
+    "count": 33,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.6,
+    "node": "N034",
+    "count": 34,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.3,
+    "node": "N035",
+    "count": 35,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.0,
+    "node": "N036",
+    "count": 36,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.7,
+    "node": "N037",
+    "count": 37,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.4,
+    "node": "N038",
+    "count": 38,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.1,
+    "node": "N039",
+    "count": 39,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.8,
+    "node": "N040",
+    "count": 40,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.5,
+    "node": "N041",
+    "count": 41,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.2,
+    "node": "N042",
+    "count": 42,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.9,
+    "node": "N043",
+    "count": 43,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.6,
+    "node": "N044",
+    "count": 44,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.3,
+    "node": "N045",
+    "count": 45,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.0,
+    "node": "N046",
+    "count": 46,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.7,
+    "node": "N047",
+    "count": 47,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6826888
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.4,
+    "node": "N048",
+    "count": 48,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 18.6,
+    "node": "N049",
+    "count": 49,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 19.3,
+    "node": "N050",
+    "count": 50,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 20.0,
+    "node": "N051",
+    "count": 51,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 20.7,
+    "node": "N052",
+    "count": 52,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 21.4,
+    "node": "N053",
+    "count": 53,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.1,
+    "node": "N054",
+    "count": 54,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.8,
+    "node": "N055",
+    "count": 55,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.5,
+    "node": "N056",
+    "count": 56,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.2,
+    "node": "N057",
+    "count": 57,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.9,
+    "node": "N058",
+    "count": 58,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.6,
+    "node": "N059",
+    "count": 59,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.3,
+    "node": "N060",
+    "count": 60,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.0,
+    "node": "N061",
+    "count": 61,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.7,
+    "node": "N062",
+    "count": 62,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.4,
+    "node": "N063",
+    "count": 63,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.1,
+    "node": "N064",
+    "count": 64,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.8,
+    "node": "N065",
+    "count": 65,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.5,
+    "node": "N066",
+    "count": 66,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.2,
+    "node": "N067",
+    "count": 67,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.9,
+    "node": "N068",
+    "count": 68,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.6,
+    "node": "N069",
+    "count": 69,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.3,
+    "node": "N070",
+    "count": 70,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.0,
+    "node": "N071",
+    "count": 71,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6828505
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.7,
+    "node": "N072",
+    "count": 72,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 18.9,
+    "node": "N073",
+    "count": 73,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 19.6,
+    "node": "N074",
+    "count": 74,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 20.3,
+    "node": "N075",
+    "count": 75,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 21.0,
+    "node": "N076",
+    "count": 76,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.7,
+    "node": "N077",
+    "count": 77,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.4,
+    "node": "N078",
+    "count": 78,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.1,
+    "node": "N079",
+    "count": 79,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.8,
+    "node": "N080",
+    "count": 80,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.5,
+    "node": "N081",
+    "count": 81,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.2,
+    "node": "N082",
+    "count": 82,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.9,
+    "node": "N083",
+    "count": 83,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.6,
+    "node": "N084",
+    "count": 84,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.3,
+    "node": "N085",
+    "count": 85,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.0,
+    "node": "N086",
+    "count": 86,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.7,
+    "node": "N087",
+    "count": 87,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.4,
+    "node": "N088",
+    "count": 88,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.1,
+    "node": "N089",
+    "count": 89,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.8,
+    "node": "N090",
+    "count": 90,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.5,
+    "node": "N091",
+    "count": 91,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.2,
+    "node": "N092",
+    "count": 92,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.9,
+    "node": "N093",
+    "count": 93,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.6,
+    "node": "N094",
+    "count": 94,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.3,
+    "node": "N095",
+    "count": 95,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6830122
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 35.0,
+    "node": "N096",
+    "count": 96,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 19.2,
+    "node": "N097",
+    "count": 97,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 19.9,
+    "node": "N098",
+    "count": 98,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 20.6,
+    "node": "N099",
+    "count": 99,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.3,
+    "node": "N100",
+    "count": 100,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.0,
+    "node": "N101",
+    "count": 101,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.7,
+    "node": "N102",
+    "count": 102,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.4,
+    "node": "N103",
+    "count": 103,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.1,
+    "node": "N104",
+    "count": 104,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.8,
+    "node": "N105",
+    "count": 105,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.5,
+    "node": "N106",
+    "count": 106,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.2,
+    "node": "N107",
+    "count": 107,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.9,
+    "node": "N108",
+    "count": 108,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.6,
+    "node": "N109",
+    "count": 109,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.3,
+    "node": "N110",
+    "count": 110,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.0,
+    "node": "N111",
+    "count": 111,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.7,
+    "node": "N112",
+    "count": 112,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.4,
+    "node": "N113",
+    "count": 113,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.1,
+    "node": "N114",
+    "count": 114,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.8,
+    "node": "N115",
+    "count": 115,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.5,
+    "node": "N116",
+    "count": 116,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.2,
+    "node": "N117",
+    "count": 117,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.9,
+    "node": "N118",
+    "count": 118,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.6,
+    "node": "N119",
+    "count": 119,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6831739
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 35.3,
+    "node": "N120",
+    "count": 120,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 19.5,
+    "node": "N121",
+    "count": 121,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 20.2,
+    "node": "N122",
+    "count": 122,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 20.9,
+    "node": "N123",
+    "count": 123,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 21.6,
+    "node": "N124",
+    "count": 124,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.3,
+    "node": "N125",
+    "count": 125,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.0,
+    "node": "N126",
+    "count": 126,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.7,
+    "node": "N127",
+    "count": 127,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.4,
+    "node": "N128",
+    "count": 128,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.1,
+    "node": "N129",
+    "count": 129,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.8,
+    "node": "N130",
+    "count": 130,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.5,
+    "node": "N131",
+    "count": 131,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.2,
+    "node": "N132",
+    "count": 132,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.9,
+    "node": "N133",
+    "count": 133,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.6,
+    "node": "N134",
+    "count": 134,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.3,
+    "node": "N135",
+    "count": 135,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.0,
+    "node": "N136",
+    "count": 136,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.7,
+    "node": "N137",
+    "count": 137,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.4,
+    "node": "N138",
+    "count": 138,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.1,
+    "node": "N139",
+    "count": 139,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.8,
+    "node": "N140",
+    "count": 140,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.5,
+    "node": "N141",
+    "count": 141,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.2,
+    "node": "N142",
+    "count": 142,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.9,
+    "node": "N143",
+    "count": 143,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6833356
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 35.6,
+    "node": "N144",
+    "count": 144,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 19.8,
+    "node": "N145",
+    "count": 145,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 20.5,
+    "node": "N146",
+    "count": 146,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 21.2,
+    "node": "N147",
+    "count": 147,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.9,
+    "node": "N148",
+    "count": 148,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.6,
+    "node": "N149",
+    "count": 149,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.3,
+    "node": "N150",
+    "count": 150,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.0,
+    "node": "N151",
+    "count": 151,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.7,
+    "node": "N152",
+    "count": 152,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.4,
+    "node": "N153",
+    "count": 153,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.1,
+    "node": "N154",
+    "count": 154,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.8,
+    "node": "N155",
+    "count": 155,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.5,
+    "node": "N156",
+    "count": 156,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.2,
+    "node": "N157",
+    "count": 157,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.9,
+    "node": "N158",
+    "count": 158,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.6,
+    "node": "N159",
+    "count": 159,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.3,
+    "node": "N160",
+    "count": 160,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.0,
+    "node": "N161",
+    "count": 161,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.7,
+    "node": "N162",
+    "count": 162,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.4,
+    "node": "N163",
+    "count": 163,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.1,
+    "node": "N164",
+    "count": 164,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.8,
+    "node": "N165",
+    "count": 165,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.5,
+    "node": "N166",
+    "count": 166,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 35.2,
+    "node": "N167",
+    "count": 167,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6834973
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 35.9,
+    "node": "N168",
+    "count": 168,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 20.1,
+    "node": "N169",
+    "count": 169,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 20.8,
+    "node": "N170",
+    "count": 170,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.5,
+    "node": "N171",
+    "count": 171,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.2,
+    "node": "N172",
+    "count": 172,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.9,
+    "node": "N173",
+    "count": 173,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.6,
+    "node": "N174",
+    "count": 174,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.3,
+    "node": "N175",
+    "count": 175,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.0,
+    "node": "N176",
+    "count": 176,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.7,
+    "node": "N177",
+    "count": 177,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.4,
+    "node": "N178",
+    "count": 178,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.1,
+    "node": "N179",
+    "count": 179,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.8,
+    "node": "N180",
+    "count": 180,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.5,
+    "node": "N181",
+    "count": 181,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.2,
+    "node": "N182",
+    "count": 182,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.9,
+    "node": "N183",
+    "count": 183,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.6,
+    "node": "N184",
+    "count": 184,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.3,
+    "node": "N185",
+    "count": 185,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.0,
+    "node": "N186",
+    "count": 186,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.7,
+    "node": "N187",
+    "count": 187,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.4,
+    "node": "N188",
+    "count": 188,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.1,
+    "node": "N189",
+    "count": 189,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.8,
+    "node": "N190",
+    "count": 190,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 35.5,
+    "node": "N191",
+    "count": 191,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.683659
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 36.2,
+    "node": "N192",
+    "count": 192,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 20.4,
+    "node": "N193",
+    "count": 193,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.1,
+    "node": "N194",
+    "count": 194,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 21.8,
+    "node": "N195",
+    "count": 195,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.5,
+    "node": "N196",
+    "count": 196,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.2,
+    "node": "N197",
+    "count": 197,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.9,
+    "node": "N198",
+    "count": 198,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.6,
+    "node": "N199",
+    "count": 199,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.3,
+    "node": "N200",
+    "count": 200,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.0,
+    "node": "N201",
+    "count": 201,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.7,
+    "node": "N202",
+    "count": 202,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.4,
+    "node": "N203",
+    "count": 203,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.1,
+    "node": "N204",
+    "count": 204,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.8,
+    "node": "N205",
+    "count": 205,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.5,
+    "node": "N206",
+    "count": 206,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.2,
+    "node": "N207",
+    "count": 207,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.9,
+    "node": "N208",
+    "count": 208,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.6,
+    "node": "N209",
+    "count": 209,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.3,
+    "node": "N210",
+    "count": 210,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.0,
+    "node": "N211",
+    "count": 211,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.7,
+    "node": "N212",
+    "count": 212,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.4,
+    "node": "N213",
+    "count": 213,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 35.1,
+    "node": "N214",
+    "count": 214,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 35.8,
+    "node": "N215",
+    "count": 215,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6838207
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 36.5,
+    "node": "N216",
+    "count": 216,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 20.7,
+    "node": "N217",
+    "count": 217,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 21.4,
+    "node": "N218",
+    "count": 218,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.1,
+    "node": "N219",
+    "count": 219,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.8,
+    "node": "N220",
+    "count": 220,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.5,
+    "node": "N221",
+    "count": 221,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.2,
+    "node": "N222",
+    "count": 222,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.9,
+    "node": "N223",
+    "count": 223,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.6,
+    "node": "N224",
+    "count": 224,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.3,
+    "node": "N225",
+    "count": 225,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.0,
+    "node": "N226",
+    "count": 226,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.7,
+    "node": "N227",
+    "count": 227,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.4,
+    "node": "N228",
+    "count": 228,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.1,
+    "node": "N229",
+    "count": 229,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.8,
+    "node": "N230",
+    "count": 230,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.5,
+    "node": "N231",
+    "count": 231,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.2,
+    "node": "N232",
+    "count": 232,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.9,
+    "node": "N233",
+    "count": 233,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.6,
+    "node": "N234",
+    "count": 234,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.3,
+    "node": "N235",
+    "count": 235,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.0,
+    "node": "N236",
+    "count": 236,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.7,
+    "node": "N237",
+    "count": 237,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 35.4,
+    "node": "N238",
+    "count": 238,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 36.1,
+    "node": "N239",
+    "count": 239,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6839824
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 36.8,
+    "node": "N240",
+    "count": 240,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 21.0,
+    "node": "N241",
+    "count": 241,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.7,
+    "node": "N242",
+    "count": 242,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.4,
+    "node": "N243",
+    "count": 243,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.1,
+    "node": "N244",
+    "count": 244,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.8,
+    "node": "N245",
+    "count": 245,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.5,
+    "node": "N246",
+    "count": 246,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.2,
+    "node": "N247",
+    "count": 247,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.9,
+    "node": "N248",
+    "count": 248,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.6,
+    "node": "N249",
+    "count": 249,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.3,
+    "node": "N250",
+    "count": 250,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.0,
+    "node": "N251",
+    "count": 251,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.7,
+    "node": "N252",
+    "count": 252,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.4,
+    "node": "N253",
+    "count": 253,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.1,
+    "node": "N254",
+    "count": 254,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.8,
+    "node": "N255",
+    "count": 255,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.5,
+    "node": "N256",
+    "count": 256,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.2,
+    "node": "N257",
+    "count": 257,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.9,
+    "node": "N258",
+    "count": 258,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.6,
+    "node": "N259",
+    "count": 259,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.3,
+    "node": "N260",
+    "count": 260,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 35.0,
+    "node": "N261",
+    "count": 261,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 35.7,
+    "node": "N262",
+    "count": 262,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 36.4,
+    "node": "N263",
+    "count": 263,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6841441
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 37.1,
+    "node": "N264",
+    "count": 264,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.3,
+    "node": "N265",
+    "count": 265,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.0,
+    "node": "N266",
+    "count": 266,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.7,
+    "node": "N267",
+    "count": 267,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.4,
+    "node": "N268",
+    "count": 268,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.1,
+    "node": "N269",
+    "count": 269,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.8,
+    "node": "N270",
+    "count": 270,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.5,
+    "node": "N271",
+    "count": 271,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.2,
+    "node": "N272",
+    "count": 272,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.9,
+    "node": "N273",
+    "count": 273,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.6,
+    "node": "N274",
+    "count": 274,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.3,
+    "node": "N275",
+    "count": 275,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.0,
+    "node": "N276",
+    "count": 276,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.7,
+    "node": "N277",
+    "count": 277,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.4,
+    "node": "N278",
+    "count": 278,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.1,
+    "node": "N279",
+    "count": 279,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.8,
+    "node": "N280",
+    "count": 280,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.5,
+    "node": "N281",
+    "count": 281,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.2,
+    "node": "N282",
+    "count": 282,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.9,
+    "node": "N283",
+    "count": 283,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.6,
+    "node": "N284",
+    "count": 284,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 35.3,
+    "node": "N285",
+    "count": 285,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 36.0,
+    "node": "N286",
+    "count": 286,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 36.7,
+    "node": "N287",
+    "count": 287,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6843058
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 37.4,
+    "node": "N288",
+    "count": 288,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 21.6,
+    "node": "N289",
+    "count": 289,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.3,
+    "node": "N290",
+    "count": 290,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.0,
+    "node": "N291",
+    "count": 291,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.7,
+    "node": "N292",
+    "count": 292,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.4,
+    "node": "N293",
+    "count": 293,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.1,
+    "node": "N294",
+    "count": 294,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.8,
+    "node": "N295",
+    "count": 295,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.5,
+    "node": "N296",
+    "count": 296,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.2,
+    "node": "N297",
+    "count": 297,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.9,
+    "node": "N298",
+    "count": 298,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.6,
+    "node": "N299",
+    "count": 299,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.3,
+    "node": "N300",
+    "count": 300,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.0,
+    "node": "N301",
+    "count": 301,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.7,
+    "node": "N302",
+    "count": 302,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.4,
+    "node": "N303",
+    "count": 303,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.1,
+    "node": "N304",
+    "count": 304,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.8,
+    "node": "N305",
+    "count": 305,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.5,
+    "node": "N306",
+    "count": 306,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.2,
+    "node": "N307",
+    "count": 307,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.9,
+    "node": "N308",
+    "count": 308,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 35.6,
+    "node": "N309",
+    "count": 309,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 36.3,
+    "node": "N310",
+    "count": 310,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 37.0,
+    "node": "N311",
+    "count": 311,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6844675
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 37.7,
+    "node": "N312",
+    "count": 312,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 21.9,
+    "node": "N313",
+    "count": 313,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.6,
+    "node": "N314",
+    "count": 314,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.3,
+    "node": "N315",
+    "count": 315,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.0,
+    "node": "N316",
+    "count": 316,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.7,
+    "node": "N317",
+    "count": 317,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.4,
+    "node": "N318",
+    "count": 318,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.1,
+    "node": "N319",
+    "count": 319,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.8,
+    "node": "N320",
+    "count": 320,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.5,
+    "node": "N321",
+    "count": 321,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.2,
+    "node": "N322",
+    "count": 322,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.9,
+    "node": "N323",
+    "count": 323,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.6,
+    "node": "N324",
+    "count": 324,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.3,
+    "node": "N325",
+    "count": 325,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.0,
+    "node": "N326",
+    "count": 326,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.7,
+    "node": "N327",
+    "count": 327,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.4,
+    "node": "N328",
+    "count": 328,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.1,
+    "node": "N329",
+    "count": 329,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.8,
+    "node": "N330",
+    "count": 330,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.5,
+    "node": "N331",
+    "count": 331,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 35.2,
+    "node": "N332",
+    "count": 332,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 35.9,
+    "node": "N333",
+    "count": 333,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 36.6,
+    "node": "N334",
+    "count": 334,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 37.3,
+    "node": "N335",
+    "count": 335,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6846292
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 38.0,
+    "node": "N336",
+    "count": 336,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 22.2,
+    "node": "N337",
+    "count": 337,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.9,
+    "node": "N338",
+    "count": 338,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.6,
+    "node": "N339",
+    "count": 339,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 24.3,
+    "node": "N340",
+    "count": 340,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 25.0,
+    "node": "N341",
+    "count": 341,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.7,
+    "node": "N342",
+    "count": 342,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.4,
+    "node": "N343",
+    "count": 343,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 27.1,
+    "node": "N344",
+    "count": 344,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.8,
+    "node": "N345",
+    "count": 345,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.5,
+    "node": "N346",
+    "count": 346,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 29.2,
+    "node": "N347",
+    "count": 347,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.9,
+    "node": "N348",
+    "count": 348,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.6,
+    "node": "N349",
+    "count": 349,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 31.3,
+    "node": "N350",
+    "count": 350,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 32.0,
+    "node": "N351",
+    "count": 351,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.7,
+    "node": "N352",
+    "count": 352,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.4,
+    "node": "N353",
+    "count": 353,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 34.1,
+    "node": "N354",
+    "count": 354,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.8,
+    "node": "N355",
+    "count": 355,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 35.5,
+    "node": "N356",
+    "count": 356,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 36.2,
+    "node": "N357",
+    "count": 357,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 36.9,
+    "node": "N358",
+    "count": 358,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 37.6,
+    "node": "N359",
+    "count": 359,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6847909
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 38.3,
+    "node": "N360",
+    "count": 360,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7643458,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 22.5,
+    "node": "N361",
+    "count": 361,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7645891,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 23.2,
+    "node": "N362",
+    "count": 362,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7648324,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 23.9,
+    "node": "N363",
+    "count": 363,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7650757,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 24.6,
+    "node": "N364",
+    "count": 364,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.765319,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 25.3,
+    "node": "N365",
+    "count": 365,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7655623,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 26.0,
+    "node": "N366",
+    "count": 366,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7658056,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 26.7,
+    "node": "N367",
+    "count": 367,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7660489,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 27.4,
+    "node": "N368",
+    "count": 368,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7662922,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 28.1,
+    "node": "N369",
+    "count": 369,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7665355,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 28.8,
+    "node": "N370",
+    "count": 370,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7667788,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 29.5,
+    "node": "N371",
+    "count": 371,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7670221,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 30.2,
+    "node": "N372",
+    "count": 372,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7672654,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 30.9,
+    "node": "N373",
+    "count": 373,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7675087,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 31.6,
+    "node": "N374",
+    "count": 374,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.767752,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 32.3,
+    "node": "N375",
+    "count": 375,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7679953,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 33.0,
+    "node": "N376",
+    "count": 376,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7682386,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 33.7,
+    "node": "N377",
+    "count": 377,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7684819,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 34.4,
+    "node": "N378",
+    "count": 378,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7687252,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 35.1,
+    "node": "N379",
+    "count": 379,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7689685,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 35.8,
+    "node": "N380",
+    "count": 380,
+    "active": false
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7692118,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 36.5,
+    "node": "N381",
+    "count": 381,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7694551,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 37.2,
+    "node": "N382",
+    "count": 382,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7696984,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "camera",
+    "temp": 37.9,
+    "node": "N383",
+    "count": 383,
+    "active": true
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     139.7699417,
+     35.6849526
+    ]
+   },
+   "properties": {
+    "category": "sensor",
+    "temp": 38.6,
+    "node": "N384",
+    "count": 384,
+    "active": true
+   }
+  }
+ ]
+}
